@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For My Beloved Son ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href= "style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Floating hearts/petals -->
+    <div id="particles"></div>
+
+    <!-- Background music -->
+    <audio id="bgMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <!-- PAGE 1 -->
+    <section class="page active" id="page1">
+
+        <div class="card opening">
+
+            <div class="heart-animation">❤️</div>
+
+            <p class="tiny">A special message from someone very special...</p>
+
+            <h1>For My Beloved Son</h1>
+
+            <div class="photo">
+                <img src="5.jpg" alt="Mother">
+            </div>
+
+            <p>
+                My child... someone has a message for you
+                on your birthday.
+            </p>
+
+            <button onclick="nextPage()">
+                Open My Message 💌
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- PAGE 2 -->
+    <section class="page" id="page2">
+
+        <div class="card">
+
+            <div class="photo small-photo">
+                <img src="5.jpg" alt="Mother">
+            </div>
+
+            <h2>My Child... ❤️</h2>
+
+            <div class="typing" id="text2"></div>
+
+            <button onclick="nextPage()">
+                Mama, I Am Listening... 🥺
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- PAGE 3 -->
+    <section class="page son-page" id="page3">
+
+        <div class="card">
+
+            <div class="photo">
+                <img src="4.jpg" alt="Son">
+            </div>
+
+            <h2>Mama... I Miss You</h2>
+
+            <div class="typing" id="text3"></div>
+
+            <button onclick="nextPage()">
+                Listen To Mama ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- PAGE 4 -->
+    <section class="page" id="page4">
+
+        <div class="card">
+
+            <div class="memory-icon">🌙</div>
+
+            <h2>The Day You Were Born</h2>
+
+            <div class="typing" id="text4"></div>
+
+            <button onclick="nextPage()">
+                See My Little Moon 🌙
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- PAGE 5 -->
+    <section class="page" id="page5">
+
+        <div class="card">
+
+            <div class="photo">
+                <img src="2.jpg" alt="Childhood">
+            </div>
+
+            <h2>My Little Moon 🌙</h2>
+
+            <div class="typing" id="text5"></div>
+
+            <button onclick="nextPage()">
+                Another Memory 💕
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- PAGE 6 -->
+    <section class="page" id="page6">
+
+        <div class="card">
+
+            <div class="photo">
+                <img src="1.jpg" alt="Mother and Son">
+            </div>
+
+            <h2>My Love For You ❤️</h2>
+
+            <div class="typing" id="text6"></div>
+
+            <button onclick="nextPage()">
+                My Birthday Wish 🎂
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- PAGE 7 -->
+    <section class="page birthday" id="page7">
+
+        <div class="card">
+
+            <div class="cake">🎂</div>
+
+            <h1>Happy Birthday!</h1>
+
+            <div class="photo">
+                <img src="6.jpg" alt="Son">
+            </div>
+
+            <h2>My Beloved Son ❤️</h2>
+
+            <div class="typing" id="text7"></div>
+
+            <button onclick="nextPage()">
+                My Duas For You 🤲
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- PAGE 8 -->
+    <section class="page" id="page8">
+
+        <div class="card">
+
+            <div class="dua">🤲</div>
+
+            <h2>My Dua For You</h2>
+
+            <div class="typing" id="text8"></div>
+
+            <button onclick="nextPage()">
+                There Is Something I Want To Tell You...
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- PAGE 9 -->
+    <section class="page" id="page9">
+
+        <div class="card">
+
+            <div class="photo small-photo">
+                <img src="5.jpg" alt="Mother">
+            </div>
+
+            <h2>Don't Be Sad, My Child... 🥺</h2>
+
+            <div class="typing" id="text9"></div>
+
+            <button onclick="nextPage()">
+                Mama... Are You Still With Me?
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- PAGE 10 -->
+    <section class="page" id="page10">
+
+        <div class="card candle-card">
+
+            <div class="candle">🕯️</div>
+
+            <h2>Yes, My Child... ❤️</h2>
+
+            <div class="typing" id="text10"></div>
+
+            <button onclick="nextPage()">
+                One Last Message 💌
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- PAGE 11 -->
+    <section class="page final" id="page11">
+
+        <div class="card">
+
+            <h1>My Beloved Son ❤️</h1>
+
+            <div class="together-photo">
+                <img src="8.jpg" alt="Mother and Son">
+            </div>
+
+            <div class="typing final-text" id="text11"></div>
+
+            <div class="final-heart">
+                ❤️
+            </div>
+
+            <button onclick="restartStory()">
+                Read My Message Again ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
